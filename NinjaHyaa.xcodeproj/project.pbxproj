@@ -8,26 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1221365D225BC40F00D12156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221365C225BC40F00D12156 /* AppDelegate.swift */; };
-		1221365F225BC40F00D12156 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1221365E225BC40F00D12156 /* GameScene.sks */; };
-		12213661225BC40F00D12156 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 12213660225BC40F00D12156 /* Actions.sks */; };
 		12213663225BC40F00D12156 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213662225BC40F00D12156 /* GameScene.swift */; };
 		12213665225BC40F00D12156 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12213664225BC40F00D12156 /* GameViewController.swift */; };
 		12213668225BC40F00D12156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12213666225BC40F00D12156 /* Main.storyboard */; };
 		1221366A225BC41100D12156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12213669225BC41100D12156 /* Assets.xcassets */; };
 		1221366D225BC41100D12156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1221366B225BC41100D12156 /* LaunchScreen.storyboard */; };
+		127F8B34226104CC00DF4F4A /* gameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 127F8B31226104CC00DF4F4A /* gameMusic.mp3 */; };
+		127F8B35226104CC00DF4F4A /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F8B32226104CC00DF4F4A /* VectorMath.swift */; };
+		127F8B36226104CC00DF4F4A /* pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 127F8B33226104CC00DF4F4A /* pew.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12213659225BC40F00D12156 /* NinjaHyaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaHyaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1221365C225BC40F00D12156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1221365E225BC40F00D12156 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		12213660225BC40F00D12156 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		12213662225BC40F00D12156 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		12213664225BC40F00D12156 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		12213667225BC40F00D12156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12213669225BC41100D12156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1221366C225BC41100D12156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1221366E225BC41100D12156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127F8B31226104CC00DF4F4A /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameMusic.mp3; path = ../../../../Downloads/NinjaAssets/gameMusic.mp3; sourceTree = "<group>"; };
+		127F8B32226104CC00DF4F4A /* VectorMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VectorMath.swift; path = ../../../../Downloads/NinjaAssets/VectorMath.swift; sourceTree = "<group>"; };
+		127F8B33226104CC00DF4F4A /* pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pew.wav; path = ../../../../Downloads/NinjaAssets/pew.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				1221365C225BC40F00D12156 /* AppDelegate.swift */,
-				1221365E225BC40F00D12156 /* GameScene.sks */,
-				12213660225BC40F00D12156 /* Actions.sks */,
 				12213662225BC40F00D12156 /* GameScene.swift */,
 				12213664225BC40F00D12156 /* GameViewController.swift */,
 				12213666225BC40F00D12156 /* Main.storyboard */,
 				12213669225BC41100D12156 /* Assets.xcassets */,
 				1221366B225BC41100D12156 /* LaunchScreen.storyboard */,
 				1221366E225BC41100D12156 /* Info.plist */,
+				127F8B31226104CC00DF4F4A /* gameMusic.mp3 */,
+				127F8B33226104CC00DF4F4A /* pew.wav */,
+				127F8B32226104CC00DF4F4A /* VectorMath.swift */,
 			);
 			path = NinjaHyaa;
 			sourceTree = "<group>";
@@ -131,11 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127F8B36226104CC00DF4F4A /* pew.wav in Resources */,
 				12213668225BC40F00D12156 /* Main.storyboard in Resources */,
-				1221365F225BC40F00D12156 /* GameScene.sks in Resources */,
 				1221366A225BC41100D12156 /* Assets.xcassets in Resources */,
+				127F8B34226104CC00DF4F4A /* gameMusic.mp3 in Resources */,
 				1221366D225BC41100D12156 /* LaunchScreen.storyboard in Resources */,
-				12213661225BC40F00D12156 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127F8B35226104CC00DF4F4A /* VectorMath.swift in Sources */,
 				12213663225BC40F00D12156 /* GameScene.swift in Sources */,
 				12213665225BC40F00D12156 /* GameViewController.swift in Sources */,
 				1221365D225BC40F00D12156 /* AppDelegate.swift in Sources */,
@@ -297,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LA9ZV3KKR7;
 				INFOPLIST_FILE = NinjaHyaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LA9ZV3KKR7;
 				INFOPLIST_FILE = NinjaHyaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
